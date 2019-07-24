@@ -1,0 +1,1046 @@
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700|Lora:400,700|Muli:300,400,400i,600&display=swap');
+
+/*fonts within website*/
+@font-face 
+{
+    font-family: b;
+    src: url('../fonts/billionthine.otf')
+        
+    font-family: code;
+    src: url('../fonts/codebold.otf')
+        
+    font-family: nature;
+    src: url('../fonts/naturebeauty.ttf')       
+}
+
+
+
+
+
+/*CSS for index page start from here*/
+/*CSS for index page start from here*/
+/*CSS for index page start from here*/
+/*CSS for index page start from here*/
+
+/*Style for body*/
+body {
+    background: black;
+    color: white;
+    
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    width: 100%;
+    height: 100%;
+    
+    overflow: auto;
+    margin: 0;
+}
+
+/*Style for header*/
+.header{
+    
+    width: 100%;
+    height: 45px;  
+    
+    display: block;
+    background-color: black;
+    
+    top: 0;
+}
+
+/* Set up logo position*/
+.logo{    
+     float: left;
+}
+
+
+/*Style for Logo and Tabs*/
+.logo nav ul li a{
+    position: relative;
+    height: 45px;  
+    
+    left: 145px;
+    top: 2px;
+    margin-top:  5px;
+
+    display: block;
+   
+    color: white;
+    
+    font-family: b;
+    font-size: 20px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+
+/*Color for logo when mouse move over it*/
+.logo nav ul li a:hover{
+    color: greenyellow;
+}
+
+
+/*Nav position and height*/
+.navigation{
+    float: right;
+    height: 45px;
+}
+
+
+/**/
+.navigation nav ul li a
+{
+    display: block;
+    vertical-align: middle;
+    margin: 5px 0px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    position: relative;    
+    right: 135px;
+    font-size: 14px;
+    font-family: b;
+}
+
+
+/*Color when mouse move over it*/
+.navigation nav ul li a:hover{
+    opacity: 0.8;
+    color: greenyellow;
+}
+
+
+/**/
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+
+/**/
+nav ul li{
+    list-style: none;
+}
+
+/*setup height and link for hero image*/
+.heroimage {
+    height: 400px;
+   background-image: url(../images/heroimage.gif);
+    
+}
+
+
+
+/*Style for header within hero section*/
+.biglogo{
+    font-family: b;
+    font-size: 40px;
+    line-height: 1.5; 
+    transform: translate(-50%, -50%);
+    
+    
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    
+    width: 600px;
+    
+}
+
+
+/*Style for content within hero section*/
+.content {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.5; 
+    
+    position: absolute;
+    
+    transform: translate(-50%, -50%);
+    
+    width: 900px;
+    height: auto;
+    top: 200px;
+    left: 55%;
+    
+    margin-top:  30px;
+}
+
+/* Style for intr header*/
+.introduction
+{
+    position: relative;
+    
+    left: 135px;
+    width: 500px; 
+    bottom: -50px;
+}
+
+/* Style for header*/
+.header1 h3{
+    font-family: b;
+    font-size: 40px; 
+}
+
+/*Style paragraph for Introduction section from homepage */
+.Introparagraph p {
+    text-align: justify;
+    font-size: 17px;  
+    margin-top: 100px;
+    width: 602.5px;
+    float: left;
+    margin-left: 280px;
+}
+
+/*set postion for img in intr section*/
+.imgItr{
+    float: right;
+    position: relative;
+    left: -150px;
+    top: 30px;
+}
+
+/*set size for img in intr section*/
+.imgItr img{
+    width: 600px;
+    height: 500px;
+}
+
+
+/*setup for OpenSystemsHouse section*/
+.history{
+    position:relative;
+    width: 100%; 
+    margin-top: 75px;
+    float: left;
+    text-align: center;
+
+}
+
+
+/*setup for Opensyshouse header*/
+.header2 h3{
+    font-family: b;
+    font-size: 40px; 
+    
+}
+
+/*setup for first paragraph in OpenSystemsHouse section*/
+.OpenSystemsHouseparagraph1 p{
+    text-align: justify;
+    font-size: 17px; 
+    
+    width: 602.5px;
+    height: auto;
+    position: relative;
+    
+    margin-left: 280px;
+    top: -110px;
+    float: left;
+
+}
+
+/*setup for second paragraph in OpenSystemsHouse section*/
+.OpenSystemsHouseparagraph2 p{
+    text-align: justify;
+    font-size: 17px;    
+    
+    width: 602.5px;
+    height: auto;
+    position: relative;
+    
+    left: -150px;
+    top: 110px;
+    float: right;
+
+}
+
+
+/*setup positon for fist inmage in Oensyshouse section*/
+.imgOpenSystemsHouse{
+    float: left;
+    position: relative;
+    margin-left: 280px; 
+}
+
+/*setup height and width for fist inmage in Opensyshouse section*/
+.imgOpenSystemsHouse img{
+    width: 1500px;
+    height: 700px;
+}
+
+/*setup positon for fist inmage in Oensyshouse section*/
+.imgOpenSystemsHouse2{
+    
+    float: left;
+    position: relative;
+    margin-left: 280px;
+    margin-top: 70px;
+    
+}
+
+
+/*setup height and width for fist inmage in Opensyshouse section*/
+.imgOpenSystemsHouse2 img{
+   width: 670px;
+    height: 350px;
+}
+
+/*setup posiotion for fist inmage in Opensyshouse section*/
+.imgOpenSystemsHouse3{
+    float: right;
+    position: relative;
+    left: -120px;
+     margin-top: 70px;
+}
+
+/*setup height and width for fist inmage in Opensyshouse section*/
+.imgOpenSystemsHouse3 img {
+    width: 670px;
+    height: 350px;
+}
+
+
+/* Style for statementofsignificance div*/
+.statementofsignificance
+{
+    position: relative;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    width: 100%;
+    float: left;
+
+    text-align: center;
+
+}
+
+/* Style for header*/
+.header3 h3{
+    font-family: b;
+    font-size: 40px; 
+}
+
+
+/* Style for statementofsignificance paragrapgh*/
+.statementofsignificanceparagraph p
+{
+    text-align: justify;
+    font-size: 17px; 
+    
+    height: auto;
+    width: 1500px;
+    
+    float: left;
+    position: relative;
+       
+    margin-left: 280px;
+    
+
+}
+
+
+/*Style for div robin header*/
+.robinboyd {
+    
+    
+    position: relative;
+    
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+    width: 100%;
+
+    float: left;
+    
+    text-align: center;
+   
+    
+/*Style for robin header*/
+}
+
+/* Style for header4*/
+.header4 h3
+{
+    font-family: code;
+    font-size: 40px; 
+}
+
+
+/*Style for robin paragraph*/
+.robinboydparagraph p{
+    text-align: justify;
+    font-size: 17px; 
+    
+    height: auto;
+    width: 1500px;
+    
+    float: left;
+    position: relative;
+       
+    margin-left: 280px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+ 
+}
+
+
+
+/*Div robin pic*/
+.robinboydpic {
+    float: right;
+    position: relative;
+    left: -120px;
+    margin-top: -460px;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+/*setup height and width for fist inmage in Opensyshouse section*/
+.robinboydpic img{
+    width: 700px;
+    height: 550px;
+}
+
+
+
+/*div footer*/
+.footer {
+    position: relative;
+    width: 100%;
+    float: left;
+    background-color: grey;
+}
+
+/*Syle for footer paragragh*/
+.footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* if screen is between 375px to 767px (mobile) */
+@media screen and (min-device-width: 375px) {
+   
+    .html{
+        width: auto;
+   
+    }
+    
+    /* Style for Intro paragragh*/
+    .Introparagraph p {
+        text-align: justify;
+        margin-top: 100px;
+        width: auto;
+        margin: 50px;
+        font-size: 12px;
+    }
+    
+     /* Style for Intro div*/
+    .introduction {
+        position: relative;
+        width: 500px;
+        margin: 30px;
+}
+    
+     /* Style for content in hero which is header of content*/
+    .biglogo {
+        font-size: 30px;
+        line-height: 1.5;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        top:80px;
+        margin-left: -100px;
+}
+    
+    /*Style for content within hero section*/
+    .content {
+        text-align: justify;
+        line-height: 1.5;
+        width: 80%;
+        height: auto;
+        left:50%;
+
+     
+}
+    
+    /*Style for paragragh in content within hero section*/
+    .content p{
+        width: 100%;
+    }
+    
+/*setup for statement of significance paragraph*/
+    .statementofsignificanceparagraph p {
+        float: none; 
+        position: none; 
+        margin-left: 0; 
+        margin: 50px;
+        width: auto;
+        font-size: x-small;
+}
+    
+/*setup for histrory paragraph right 1*/
+    .OpenSystemsHouseparagraph1 p{
+        margin-left: 0; 
+        top: 0; 
+        margin: 50px;
+        width: auto;
+        
+    }
+    
+    /*setup for histrory paragraph left 2*/
+    .OpenSystemsHouseparagraph2 p{
+        margin: 50px;
+        top: 0;
+        width: auto;
+        left: 0;
+    }
+    
+    /*setup for robin paragraph */
+    .robinboydparagraph p {
+        width: auto;
+        margin-left: 280px; 
+        margin-top: 30px; 
+        margin-bottom: 50px; 
+        margin: 50px;
+            font-size: x-small;
+}
+    
+    /*histroy header*/
+    .history {
+        margin-top: 100px;
+}
+    
+/*set size for img in intr section*/
+    .imgItr img {
+        width: 100%;
+        height: 100%;
+   
+}
+/*set postion for img in intr section*/
+    .imgItr  {
+        left: 0px;
+        margin-left: 200px;
+        margin-right: 200px;
+        
+        max-width: 100%;
+        height: auto;
+}
+   
+    
+    .imgOpenSystemsHouse {
+        float: none; 
+        position: none;
+        margin-left: 0; 
+        left: 0;
+        
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+}
+    
+    
+    .imgOpenSystemsHouse img {
+        width: 900px;
+        height: 600px;
+        margin-left: 40px;
+        margin-right: 40px;    
+}
+   
+    
+    .imgOpenSystemsHouse2 {
+        float: none;
+        margin-left: 0;
+        margin-left: 160px;
+        margin-right: 150px;
+        margin-bottom: 50px;
+        max-width: 100%;
+        height: auto;
+        
+}
+    
+/*setup posiotion for fist inmage in Opensyshouse section*/
+    .imgOpenSystemsHouse3 {
+        left: 0; 
+        margin-left: 160px;
+        margin-right: 150px;
+        margin-top: 0; 
+        float: none;
+}
+    
+/*setup for div robin for fist inmage in Opensyshouse section*/ 
+    .robinboydpic {
+        margin-top: 0; 
+        margin-left:0;
+        right: 0;
+        margin-bottom: 50px;
+        margin-right: 0;
+        max-width: 100%;
+        height: auto;
+        margin-right: -30px;
+}
+    
+/*setup height and width for fist inmage in Opensyshouse section*/
+    .robinboydpic img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    .footer p {
+        float: none;
+        
+    }
+}
+
+/* if screen is between 768px and 999pxpx (tablet) */
+@media screen and (min-device-width: 768px) {
+
+/*Style paragraph for Introduction section */
+    .Introparagraph p {
+        width: 350px;
+}
+    
+/*set postion for img in intr section*/
+    .imgItr {
+        margin-left: 450px;
+        margin-top: -450px;
+        margin-right: 50px;
+        margin-bottom: 70px;
+    }
+    
+    .history {
+        margin-top: 0px;
+}
+    
+    .OpenSystemsHouseparagraph1 p {
+        width: 400px;
+        float: left;
+}
+    
+    .OpenSystemsHouseparagraph2 p {
+        width: 400px;
+        margin-top: -665px;
+        float: right;
+    
+           
+}
+   
+    .imgOpenSystemsHouse2 img {
+        width: 350px;
+        height: 200px;
+        margin-left: -90px;
+        
+}
+    
+/*setup height and width for fist inmage in Opensyshouse section*/
+    .imgOpenSystemsHouse3 img {
+        width: 350px;
+        height: 200px;
+       
+        
+}
+    
+/*setup posiotion for fist inmage in Opensyshouse section*/
+    .imgOpenSystemsHouse3 {
+        float: right;
+        margin-right: 70px;
+        margin-top: -253px;
+}
+     
+}
+
+/* if screen is between 1000px and 1055px (laptop small size) */
+@media screen and (min-device-width: 1000px) and (max-device-width: 1055px){
+   
+    /*set margin for paragraph 2 in history*/
+    .OpenSystemsHouseparagraph2 p {
+    margin-top: 50px;
+}
+    
+    
+    .html{
+        font-size: 30px;
+    }
+    
+}
+
+/*This is style for my lap top size 1920px x 1080*/
+@media screen and (min-device-width: 1920px) {
+    
+/*Style into paragraph for Introduction section */
+.Introparagraph p {
+        text-align: justify;
+        font-size: 17px;  
+        margin-top: 100px;
+        width: 602.5px;
+        float: left;
+        margin-left: 280px;
+    }
+    
+/*set postion for img in intr section*/
+.imgItr {
+    float: right;
+    position: relative;
+    left: -150px;
+    top: 100px;
+}
+
+/*set size for img in intr section*/
+.imgItr img
+{
+    width: 600px;
+    height: 500px;
+}
+    
+    
+.history{
+    margin-top: 150px;
+
+}
+
+.header2 {
+    margin-left: 80px;
+    
+}
+    
+/*setup for first paragraph in OpenSystemsHouse section*/
+.OpenSystemsHouseparagraph1 p{
+    text-align: justify;
+    font-size: 17px; 
+    
+    width: 602.5px;
+    height: auto;
+    position: relative;
+    
+    margin-left: 280px;
+    top: 0px;
+    float: left;
+
+}
+
+/*setup for second paragraph in OpenSystemsHouse section*/
+.OpenSystemsHouseparagraph2 p{
+    text-align: justify;
+    font-size: 17px;    
+    
+    width: 602.5px;
+    height: auto;
+    position: relative;
+    
+    left: -150px;
+    top: 710px;
+    float: right;
+
+}
+    
+/*setup positon for fist inmage in Oensyshouse section*/
+.imgOpenSystemsHouse img{
+    float: left;
+    position: relative;
+    margin-left: 280px;
+}
+
+/*setup height and width for fist inmage in Opensyshouse section*/
+.imgOpenSystemsHouse img{
+    width: 1450px;
+    height: 700px;
+}
+
+/*setup for statement of significance paragraph*/
+    .statementofsignificanceparagraph p{
+    text-align: justify;
+    font-size: 17px; 
+    
+    height: auto;
+    width: 1450px;
+    
+    float: left;
+    position: relative;
+       
+    margin-left: 280px;
+}
+    
+/*setup positon for fist inmage in Oensyshouse section*/
+.imgOpenSystemsHouse2{
+    float: left;
+    position: relative;
+    margin-left: 370px;
+    margin-top: 70px;  
+}
+
+/*setup height and width for fist inmage in Opensyshouse section*/
+.imgOpenSystemsHouse2 img{
+   width: 670px;
+    height: 350px;
+}
+
+/*setup posiotion for fist inmage in Opensyshouse section*/
+.imgOpenSystemsHouse3{
+    float: right;
+    position: relative;
+    left: -100px;
+     margin-top: -400px;
+}
+
+/*setup height and width for fist inmage in Opensyshouse section*/
+.imgOpenSystemsHouse3 img{
+    width: 670px;
+    height: 350px;
+}
+    
+/*Style for robin paragraph*/
+.robinboydparagraph p{
+    text-align: justify;
+    font-size: 17px; 
+    
+    height: auto;
+    width: 1450px;
+    
+    float: left;
+    position: relative;
+       
+    margin-left: 280px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+ 
+} 
+    
+/*setup for div robin for fist inmage in Opensyshouse section*/ 
+    .robinboydpic{
+    float: right;
+    position: relative;
+    left: -220px;
+    margin-top: -370px;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+/*setup height and width for fist inmage in Opensyshouse section*/
+.robinboydpic img{
+    width: 700px;
+    height: 550px;
+}
+    
+/*div footer*/
+.footer {
+    position: relative;
+    width: 100%;
+    float: left;
+    background-color: grey;
+}
+
+/*Syle for footer paragragh*/
+.footer p{
+    text-align: center;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Css for Decription page Start here*/
+/*Css for Decription page Start here*/
+/*Css for Decription page Start here*/
+/*Css for Decription page Start here*/
+
+
+/*div footer*/
+.dfooter {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: grey;
+}
+
+/*text in footer*/
+.dfooter p{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*setup height and link for hero image*/
+.dheroimage {
+    height: 290px;
+   background-image: url(../images/heroimage.png);
+    
+}
+
+/*Style paragraph for Introduction section from Decription page */
+.dIntroparagraph p{
+    text-align: justify;
+    font-size: 17px;  
+    margin-top: 60px;
+    width: 700px;
+    float: left;
+    margin-left: 200px;
+}
+
+/*set postion for img in intr section*/
+.dimgItr{
+    float: right;
+    position: relative;
+    left: -150px;
+    margin-top: 50px; 
+}
+
+ /*set size for img in intr section*/
+.dimgItr img{
+    width: 600px;
+    height: 400px;
+}
+
+ /*set margin top and bottom for noetwing paragragh*/
+.dnortwing p{
+    text-align: justify;
+    font-size: 17px;  
+    margin-top: 130px;
+    margin-bottom: 200px;
+    width: 700px;
+    float: left;
+    margin-left: 200px;
+}
+
+/*set pool paragragh*/
+.dpoolarea p{
+    text-align: justify;
+    font-size: 17px;  
+    margin-top: 120px;
+    margin-bottom: 110px;
+    width: 700px;
+    float: left;
+    margin-left: 200px;
+}
+
+/*set postion for image in Stylistic section*/
+.dimgstylistic{
+    float: right;
+    position: relative;
+    left: -150px;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+/*set size for image in Stylistic section*/
+.dimgstylistic img{
+    width: 600px;
+    height: 400px;
+}
+
+
+
+/* if screen is 375px and over (designed for mobile and tablet) */
+@media screen and (min-device-width: 375px) {
+    
+    
+      /*set margin for header2*/
+    .dheader2 h3{
+    font-family: b;
+    font-size: 40px; 
+    margin-top: 1700px;
+}
+    
+      /*set margin top and bottom for noetwing paragragh*/
+    .dnortwing p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    
+      /*set for image in nortwing section*/
+    .dimgnortwing{
+    float: right;
+    position: relative;
+    left: -150px;
+    margin-top: -30px;
+}
+
+      /*set size for image in nortwing section*/
+    .dimgnortwing img{
+        width: 600px;
+        height: 400px;
+}
+    
+    /*set font and margintop for pool header*/
+    .dpoolheader {
+        font-family: b;
+        font-size: 40px; 
+        margin-top: 820px;
+    } 
+    
+    /*set pool paragragh*/
+    .dpoolarea p{
+    margin-top: 60px;
+    margin-bottom: 0;
+    }
+    
+    /*style for Stylistic header*/
+   .dstylisticheader {
+    font-family: b;
+    font-size: 40px; 
+    margin-top: 1100px;
+    } 
+    
+}
+
+/* if screen is 1024px(laptop) */
+@media screen and (min-device-width: 1024px) {
+    
+      /*set margin for header2*/
+    .dheader2 h3 {
+    margin-top: 1000px;
+}
+    
+    /*set margin for header Pool and cark park header*/
+    .dpoolheader h3 {
+    margin-top: -170px;
+}
+    
+    /*set margin for stylistic header*/
+    .dstylisticheader{
+        margin-top: 750px;
+    }
+    
+
+/*text in footer*/
+.dfooter p{
+    font-size: 15px;
+}
+}
+
+/* if screen is 1920px x 1080 (my laptop size) */
+@media screen and (min-device-width: 1920px){
+    
+    /*set margin for header2*/
+     .dheader2 h3 {
+    margin-top: 600px;
+}
+    
+    /*set margin for header Pool and cark park header*/
+     .dpoolheader h3 {
+    margin-top: -370px;
+}
+    
+    /*set margin for stylistic header*/
+    .dstylisticheader{
+        margin-top: 550px;
+    }
+}
